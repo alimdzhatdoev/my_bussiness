@@ -1685,6 +1685,10 @@ header {
     background: linear-gradient(73deg, #2E78E7 2.36%, rgba(0, 0, 0, 0.00) 85.98%), #2C3589;
 }
 
+.ckBGColor {
+    background: linear-gradient(73deg, #02BD41 2.36%, rgba(0, 0, 0, 0.00) 103.33%), #019934;
+}
+
 .place_main .cpeColorMain {
     color: var(--white);
 }
@@ -1757,7 +1761,7 @@ header {
 
 .place_main__right___title {
     color: var(--black);
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     width: 590px;
     margin-bottom: 20px;
@@ -1765,10 +1769,10 @@ header {
 
 .place_main__right___desc {
     color: var(--black);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 140%;
-    width: 590px;
+    width: 70%;
 }
 
 .place_info {
@@ -1787,13 +1791,13 @@ header {
 }
 
 .place_info__center___textBlock {
-    color: var(--black-gray);
+    color: var(--black);
     text-align: center;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
     line-height: 140%;
     margin-bottom: 40px;
-    width: 75%;
+    width: 90%;
 }
 
 .place_info__center___nums {
@@ -1813,7 +1817,7 @@ header {
 
 .place_info__center___nums____left_____elem {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 30px;
 }
 
@@ -2043,6 +2047,46 @@ header {
     text-transform: uppercase;
 }
 
+.place_info__center___gosPodderjki {
+    width: 732px;
+    height: 251px;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--white);
+    margin-bottom: 60px;
+    padding: 30px 60px;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.place_info__center___gosPodderjki____block {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.place_info__center___gosPodderjki____block_____text {
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.place_info__center___gosPodderjki____button {
+    display: flex;
+    width: 100%;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.place_info__center___gosPodderjki____button:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
 
 /* center */
