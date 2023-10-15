@@ -815,6 +815,16 @@ header {
     gap: 30px;
 }
 
+.new_block__img {
+    border-radius: 30px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.new_block__img img {
+    height: 100%;
+}
+
 .new_block__title {
     color: var(--black);
     text-align: center;
@@ -829,6 +839,21 @@ header {
     font-weight: 400;
 }
 
+.new_block__textDesc {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.new_block__textDesc a {
+    text-transform: uppercase;
+    color: var(--orange);
+    text-decoration: underline;
+}
+
 .new_block__text p {
     margin-bottom: 20px;
     display: flex;
@@ -836,8 +861,22 @@ header {
     gap: 15px;
 }
 
+.new_block__titleLower {
+    color: var(--black);
+    font-size: 36px;
+    font-weight: 600;
+    width: 100%
+}
+
 .new_block__text p:last-child {
     margin-bottom: 0px;
+}
+
+.new_block___bottomText {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
 }
 
 .new_block__desc {
@@ -962,6 +1001,8 @@ header {
     font-size: 24px;
     font-weight: 700;
 }
+
+
 
 /* new */
 
@@ -2370,11 +2411,11 @@ header {
     overflow: hidden;
 }
 
-.place_info__center___tetraCourses____block_____img{
+.place_info__center___tetraCourses____block_____img {
     width: 100%;
 }
 
-.place_info__center___tetraCourses____block_____img img{
+.place_info__center___tetraCourses____block_____img img {
     width: 100%;
 }
 
