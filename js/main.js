@@ -10,7 +10,7 @@ $('.header_left__menu').click(function () {
                 <a href="about.html">О нас</a>
                 <a href="contacts.html">Контакты</a>
                 <a href="base_knowledge.html">База знаний</a>
-                <a href="#">Витрина предпринимателей</a>
+                <a href="showcases.html">Витрина предпринимателей</a>
             </div>
         `)
 
