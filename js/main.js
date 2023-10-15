@@ -7,7 +7,7 @@ $('.header_left__menu').click(function () {
                 <a href="news.html">Новости</a>
                 <a href="supports.html">Меры поддержки</a>
                 <a href="service.html">Услуги</a>
-                <a href="#">О нас</a>
+                <a href="about.html">О нас</a>
                 <a href="contacts.html">Контакты</a>
                 <a href="#">База знаний</a>
                 <a href="#">Витрина предпринимателей</a>

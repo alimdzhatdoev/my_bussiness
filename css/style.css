@@ -1860,6 +1860,8 @@ header {
     line-height: 140%;
     margin-bottom: 40px;
     width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .place_info__center___nums {
@@ -2431,3 +2433,234 @@ header {
 
 
 /* center */
+
+
+/* about */
+
+.place_info__center___goals____right____text {
+    color: var(--black-gray);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.place_info__center___goals____right_____title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.about_purpose {
+    width: 100%;
+    border-radius: 30px;
+    background: #FEFEFE;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.about_purpose__right___img {
+    height: 100%;
+}
+
+.about_purpose__right___img img {
+    height: 100%;
+}
+
+.about_purpose__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about_purpose__left___title {
+    color: var(--black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.about_purpose__left___price {
+    color: var(--orange);
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about_purpose__left___price span {
+    font-size: 64px;
+}
+
+.about_purpose__left___tеxt {
+    color: var(--black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutCenter {
+    background: none;
+}
+
+.aboutCenter .about_purpose__right {
+    width: 526px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.20);
+    margin-right: 55px;
+}
+
+.aboutCenter .about_purpose__left {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    display: block;
+    gap: 0;
+    margin: auto 0;
+}
+
+.aboutCenter .about_purpose__left span {
+    font-weight: 700;
+}
+
+.aboutCenter_infrastructure {
+    flex-direction: column;
+}
+
+.aboutCenter_infrastructure .place_info__center___goals____right_____title {
+    width: 50%;
+    text-align: center;
+}
+
+.aboutCenter_infrastructure .place_info__center___goals____right____text {
+    text-align: center;
+}
+
+.aboutCenter_purposeColor {
+    background: var(--orange);
+}
+
+.aboutCenter_purposeColor .place_info__center___goals____right____text {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about_structure {
+    width: 100%;
+}
+
+.about_structure__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_structure__block {
+    padding: 18px 26px;
+    width: 258px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.about_structure__block:hover {
+    background-color: var(--white);
+}
+
+.about_structure__block___name {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about_structure__block___post {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about_structure__block___email,
+.about_structure__block___phone {
+    color: var(--dark-gray);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.borderAround {
+    border-radius: 30px;
+    border: 3px solid var(--orange);
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.borderAround .place_info__center___textBlock {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.place_info__center___textBlock____btn {
+    border-radius: 30px;
+    background: var(--orange);
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    width: 165px;
+}
+
+
+.halfPartType{
+    display: flex;
+    justify-content: space-between
+}
+.halfPartType .borderAround{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.halfPartType .borderAround .place_info__center___textBlock{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about_structure__centerButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about_centerBlock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about_centerBlock .halfPartType{
+    width: 100%;
+    justify-content: center;
+}
+
+.about_centerBlock .halfPartType .place_info__center___textBlock{
+    width: 100%;
+    font-size: 24px;
+}
+
+
+/* about */
