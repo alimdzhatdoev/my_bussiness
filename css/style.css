@@ -78,6 +78,7 @@ header {
     gap: 16px;
     padding: 26px;
     transition: all .3s ease-in-out;
+    box-shadow: 0 0 10px #00000030;
 }
 
 .header_left__menu___drop a:hover {
