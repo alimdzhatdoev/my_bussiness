@@ -249,9 +249,16 @@
     }
 
     .partners {
+        padding: 0 10px;
         margin: 20px 0;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .partners_block{
+        width: 47%;
+        display: flex;
+        justify-content: center;
     }
 
     .info_map {
@@ -831,6 +838,37 @@
     .place_info__center___tetraCourses____block_____text{
         font-size: 20px;
         padding: 25px;
+    }
+
+    .top_block{
+        height: 350px;
+        padding: 10px;
+    }
+
+    .top_block__info{
+        padding: 0;
+    }
+
+    .top_block__info___title{
+        font-size: 30px;
+    }
+
+    .top_block__info___button{
+        width: 100%;
+    }
+
+    .top_block__info___block{
+        width: 100%;
+    }
+
+    .top_block__front{
+        left: -10%;
+        right: auto;
+        height: 80%;
+    }
+
+    .top_block__front img{
+        height: 100%;
     }
 }
 
