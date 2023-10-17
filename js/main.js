@@ -136,7 +136,7 @@ function showObl(classObject, img) {
   });
   
   $(".hr").click(function () {
-    showObl("hr", "Хабезский.png");
+    showObl("hr", "хабезский.png");
   });
   
   $(".udr").click(function () {
