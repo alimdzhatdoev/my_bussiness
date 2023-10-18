@@ -255,7 +255,7 @@
         gap: 20px;
     }
 
-    .partners_block{
+    .partners_block {
         width: 47%;
         display: flex;
         justify-content: center;
@@ -781,94 +781,194 @@
         text-align: center;
     }
 
-    .place_info__center___reestr____title{
+    .place_info__center___reestr____title {
         padding: 15px;
         font-size: 20px;
     }
 
-    .place_info__center___reestr{
+    .place_info__center___reestr {
         width: 100%;
     }
 
-    .place_info__center___reestr____text{
+    .place_info__center___reestr____text {
         padding: 15px;
         font-size: 14px;
         text-align: justify;
     }
 
-    .place_info__center___kategory____blocks_____item{
+    .place_info__center___kategory____blocks_____item {
         width: 100%;
         padding: 15px;
     }
 
-    .place_info__center___kategory____blocks_____item____title{
+    .place_info__center___kategory____blocks_____item____title {
         font-size: 20px;
     }
 
-    .tetra_right{
+    .tetra_right {
         padding-top: 0;
     }
 
-    .place_info__center___info{
+    .place_info__center___info {
         gap: 20px;
     }
 
-    .tetra_color .place_main__left{
+    .tetra_color .place_main__left {
         height: auto;
     }
 
-    .place_info__center___support{
+    .place_info__center___support {
         flex-direction: column;
         margin-bottom: 20px;
         gap: 20px;
     }
 
-    .place_info__center___support____block{
+    .place_info__center___support____block {
         width: 100%;
     }
 
-    .place_info__center___tetraService____block{
+    .place_info__center___tetraService____block {
         width: 100%;
     }
 
-    .place_info__center___tetraCourses____block{
+    .place_info__center___tetraCourses____block {
         width: 100%;
     }
 
-    .place_info__center___tetraCourses____block_____text{
+    .place_info__center___tetraCourses____block_____text {
         font-size: 20px;
         padding: 25px;
     }
 
-    .top_block{
+    .top_block {
         height: 350px;
         padding: 10px;
     }
 
-    .top_block__info{
+    .top_block__info {
         padding: 0;
     }
 
-    .top_block__info___title{
+    .top_block__info___title {
         font-size: 30px;
     }
 
-    .top_block__info___button{
+    .top_block__info___button {
         width: 100%;
     }
 
-    .top_block__info___block{
+    .top_block__info___block {
         width: 100%;
     }
 
-    .top_block__front{
+    .top_block__front {
         left: -10%;
         right: auto;
         height: 80%;
     }
 
-    .top_block__front img{
+    .top_block__front img {
         height: 100%;
+    }
+
+    .support_top__right {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .rightCircle {
+        display: none;
+    }
+
+    .support_top__right___title {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .support_top__right___gerbs {
+        width: 100%;
+    }
+
+    .support_top__right___buttons {
+        width: 300px;
+        margin: 0 auto;
+        height: 60px;
+    }
+
+    .support_top__left{
+        transform: scale(0.7);
+    }
+
+    .support_top{
+        height: 80vh;
+    }
+
+    .support_top__right___buttons____button{
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .activeButton{
+        width: 50%;
+        height: 56px;
+    }
+
+    .support_popular__title{
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .support_popular{
+        padding: 10px;
+    }
+
+    .support_popular__blocks{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .support_all__blocks{
+        padding: 10px
+    }
+
+    .support_all__blocks___item{
+        width: 100%;
+    }
+
+    .support_all__blocks___item____img{
+        height: 180px;
+    }
+
+    .support_all__blocks___item____text{
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .support_all__blocks___item____text_____title{
+        font-size: 18px;
+    }
+
+    .support_all__blocks___item____text_____desc{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .support_all__blocks___item____text_____button{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .support_all{
+        padding: 10px 0;
+    }
+
+    .support_all__search{
+        margin-bottom: 20px;
+        padding: 0 10px;
     }
 }
 
