@@ -2829,13 +2829,52 @@ header {
 
 /* showcase */
 
+svg{
+    cursor: pointer;
+}
 
 .fil0{
     fill: var(--white);
-    cursor: pointer;
     transition: all .3s ease-in-out;
 }
 
 .fil0:hover{
     fill: var(--orange);
+}
+
+.showColorBlock{
+    fill: var(--orange);
+}
+
+
+.info_block__showMouse{
+    width: 288px;
+    height: 147px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    display: none;
+}
+
+.info_block__showMouse___bg{
+    width: 288px;
+    height: 147px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.info_block__showMouse___data{
+    width: 288px;
+    height: 123px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
