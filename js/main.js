@@ -24,15 +24,6 @@ $('.header_left__menu').click(function () {
   }
 })
 
-function showObl(obl, img) {
-  $(`.${obl}`).attr('src', `img/map/${img}`);
-}
-
-$('.pr').click(function () {
-  showObl('pr', 'прикубанский район.png')
-  $('.pr').attr('src', 'img/map/прикубанский район.png');
-})
-
 $(".regButton").click(function () {
   let screenWidth = window.innerWidth;
   if (screenWidth <= 425){
@@ -90,85 +81,3 @@ $(".fedButton").click(function () {
   $(".support_all__blocks___item____text_____date").css("color", "#3D2A92")
   $(".support_all__blocks___item____text_____button").css("background", "#3D2A92")
 })
-
-
-function showObl(classObject, img) {
-  let allObl = document.querySelectorAll(".map");
-
-  for (let i = 0; i <= 13; i++) {
-    $(`.${allObl[i].classList[1]}`).attr("showAttr", `hide`);
-
-    if (allObl[i].classList[1] != classObject) {
-      $(`.${allObl[i].classList[1]}`).attr(
-        "src",
-        `img/map/bg/${allObl[i].attributes["thisImg"].nodeValue}.png`
-      );
-    } else {
-      $(`.${allObl[i].classList[1]}`).attr("src", `img/map/${img}`);
-    }
-  }
-
-  $(`.${classObject}`).attr("showAttr", `show`);
-}
-
-$(".pr").click(function () {
-  showObl("pr", "прикубанский.png");
-  $(`.pr1`).attr("src", `img/map/прикубанский1.png`);
-});
-
-$(".pr1").click(function () {
-  showObl("pr1", "прикубанский1.png");
-  $(`.pr`).attr("src", `img/map/прикубанский.png`);
-});
-
-$(".ar").click(function () {
-  showObl("ar", "абазинский.png");
-  $(`.ar1`).attr("src", `img/map/абазинский1.png`);
-});
-
-$(".ar1").click(function () {
-  showObl("ar1", "абазинский1.png");
-  $(`.ar`).attr("src", `img/map/абазинский.png`);
-});
-
-$(".ahr1").click(function () {
-  showObl("ahr1", "адыгехабльский1.png");
-  $(`.ahr`).attr("src", `img/map/адыгехабльский.png`);
-});
-
-$(".ahr").click(function () {
-  showObl("ahr", "адыгехабльский.png");
-  $(`.ahr1`).attr("src", `img/map/адыгехабльский1.png`);
-});
-
-$(".hr").click(function () {
-  showObl("hr", "хабезский.png");
-});
-
-$(".udr").click(function () {
-  showObl("udr", "усть-джегутинский.png");
-});
-
-$(".nr").click(function () {
-  showObl("nr", "ногайский.png");
-});
-
-$(".mr").click(function () {
-  showObl("mr", "малокарачаевский.png");
-});
-
-$(".kr").click(function () {
-  showObl("kr", "карачаевский.png");
-});
-
-$(".zr").click(function () {
-  showObl("zr", "зеленчукский.png");
-});
-
-$(".ur").click(function () {
-  showObl("ur", "урупский.png");
-});
-
-$(".cher").click(function () {
-  showObl("cher", "черкесск.png");
-});

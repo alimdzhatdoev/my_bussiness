@@ -698,87 +698,6 @@ header {
     z-index: 9;
 }
 
-.map {
-    position: absolute;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-}
-
-.pr {
-    top: 55.55px;
-    left: 455.39px;
-}
-
-.pr1 {
-    top: 130.89px;
-    left: 427.11px;
-}
-
-.ar {
-    top: 168.28px;
-    left: 369.49px;
-    z-index: 9999;
-}
-
-.ar1 {
-    top: 93.51px;
-    left: 425.23px;
-    z-index: 999;
-}
-
-.ahr {
-    top: 9.48px;
-    left: 307.38px;
-}
-
-.ahr1 {
-    top: 62.24px;
-    left: 418.85px;
-    z-index: 999;
-}
-
-.hr {
-    top: 95.91px;
-    left: 310.45px;
-    z-index: 999;
-}
-
-.udr {
-    top: 162.73px;
-    left: 383.05px;
-}
-
-.nr {
-    top: 3.48px;
-    left: 359.76px;
-}
-
-.mr {
-    top: 215.15px;
-    left: 518.3px;
-}
-
-.kr {
-    top: 281.57px;
-    left: 292.69px;
-}
-
-.zr {
-    top: 151.81px;
-    left: 128.68px;
-}
-
-.ur {
-    top: 189.36px;
-    left: 2.46px;
-}
-
-.cher {
-    top: 99.07px;
-    left: 445.73px;
-}
-
 /* info */
 
 /* partners */
@@ -2909,3 +2828,14 @@ header {
 }
 
 /* showcase */
+
+
+.fil0{
+    fill: var(--white);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.fil0:hover{
+    fill: var(--orange);
+}
